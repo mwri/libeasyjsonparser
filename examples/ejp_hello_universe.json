@@ -1,0 +1,29 @@
+{
+  "restapi": {
+    "base-path": "/api",
+    "port": 80,
+    "ssl": false
+  },
+  "users": {
+    "john": {
+      "access": [
+        "read"
+      ],
+      "password": "asdfgh"
+    },
+    "michael": {
+      "access": [
+        "admin"
+      ],
+      "password": "qwerty"
+    },
+    "molly": {
+      "access": [
+        "write",
+        "read"
+      ],
+      "password": "zxcvb"
+    }
+  },
+  "version": "1.5.4"
+}

@@ -1,0 +1,8 @@
+{
+  "restapi": {
+    "base-path": "/api",
+    "port": 80,
+    "ssl": false
+  },
+  "version": "1.5.4"
+}
